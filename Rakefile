@@ -21,3 +21,10 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
   rdoc.rdoc_files.include('README')
   rdoc.rdoc_files.include('lib/**/*.rb')
 end
+
+desc "Run Rspec test"
+task :spec do
+  Dir.glob("spec/*.rb").each do |spec|
+    sh "spec #{spec}"
+  end
+end
