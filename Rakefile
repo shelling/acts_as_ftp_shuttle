@@ -1,9 +1,14 @@
 require 'rake'
 require 'rake/testtask'
 require 'rake/rdoctask'
+require 'rake/clean'
 
 desc 'Default: run unit tests.'
 task :default => :test
+
+CLEAN.include [
+  "spec/tempdb.sqlite3"
+]
 
 desc 'Test the acts_as_ftp_shuttle plugin.'
 Rake::TestTask.new(:test) do |t|
@@ -23,8 +28,9 @@ Rake::RDocTask.new(:rdoc) do |rdoc|
 end
 
 desc "Run Rspec test"
-task :spec do
+task :spec => [:clean] do
   Dir.glob("spec/*.rb").each do |spec|
     sh "spec #{spec}"
   end
 end
+

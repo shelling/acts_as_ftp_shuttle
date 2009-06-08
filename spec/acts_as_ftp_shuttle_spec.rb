@@ -35,4 +35,6 @@ describe PDFModel do
     @pdf_model.acts_as_ftp_shuttle.should == "ftp_shuttle"
   end
 
+  it "should ..."
+
 end
