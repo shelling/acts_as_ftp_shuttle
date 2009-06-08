@@ -1,11 +1,9 @@
-ActsAsFtpShuttle
-================
+# ActsAsFtpShuttle
 
 Introduction goes here.
 
 
-Example
-=======
+## Example
 
 Example goes here.
 
