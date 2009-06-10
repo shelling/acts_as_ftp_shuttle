@@ -31,7 +31,7 @@ describe PDFModel do
     @pdf_model = PDFModel.new
   end
 
-  it "should have class method acts_as_ftp_shuttle" do
+  it "should be able to act as ftp shuttle" do
     PDFModel.methods.include?("acts_as_ftp_shuttle") == true
   end
 
@@ -47,7 +47,9 @@ describe PDFModel do
     end
   end
 
-  it "should acts as ftp shuttle" 
+  it "should add item into database after getting file"
+
+  it "should purge file and record in database if error raised in workflow"
 
   it "should ..."
 
