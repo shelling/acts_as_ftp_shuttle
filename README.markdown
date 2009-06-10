@@ -1,11 +1,12 @@
 # ActsAsFtpShuttle
 
-Introduction goes here.
+class ImageModel < ActiveRecord::Base
+
+  acts_as_ftp_shuttle
+
+end
 
 
-## Example
-
-Example goes here.
 
 
-Copyright (c) 2009 [name of plugin creator], released under the MIT license
+Copyright (c) 2009 shelling <navyblueshellingford@gmail.com>, released under the MIT license
