@@ -1,4 +1,5 @@
 kernel:
   host: "ftp.kernel.org"
-  user: ""
+  user: "anonymous"
   pass: ""
+  local_dir: "/public/files"

@@ -1,0 +1,50 @@
+			    Welcome to the
+
+			LINUX KERNEL ARCHIVES
+			    ftp.kernel.org
+
+		    "Much more than just kernels"
+
+	   IF YOU'RE ACCESSING THIS SITE VIA A WEB BROWSER
+		PLEASE USE THE HTTP URL BELOW INSTEAD!
+
+---->       If you are looking for mirror sites, please go       <----
+---->		    to mirrors.kernel.org instead                <----
+
+This site is provided as a public service by the Linux Kernel
+Organization, a California nonprofit corporation.  Bandwidth is
+provided by The Internet Software Consortium, Inc.  Our servers are
+located in San Francisco and Palo Alto, California; Corvallis, Oregon;
+Amsterdam, Netherlands and Umeå, Sweden; use in violation of any
+applicable laws strictly prohibited.
+
+Due to U.S. Exports Regulations, all cryptographic software on this
+site is subject to the following legal notice:
+
+    This site includes publicly available encryption source code
+    which, together with object code resulting from the compiling of
+    publicly available source code, may be exported from the United
+    States under License Exception "TSU" pursuant to 15 C.F.R. Section
+    740.13(e).
+
+This legal notice applies to cryptographic software only.  Please see
+the Bureau of Industry and Security (http://www.bis.doc.gov/) for more
+information about current U.S. regulations.
+
+Neither the Linux Kernel Organization, nor its sponsors make any
+guarantees, explicit or implicit, about the contents of this site.
+Use at your own risk.
+
+This site is accessible via the following mechanisms:
+
+	FTP		ftp://ftp.kernel.org/pub/
+	HTTP		http://www.kernel.org/pub/
+	RSYNC		rsync://rsync.kernel.org/pub/
+
+NFS and SMB/CIFS are no longer available.
+
+For comments on this site, please contact <ftpadmin@kernel.org>.
+Please do not use this address for questions that are not related to
+the operation of this site.  Please see our homepage at
+http://www.kernel.org/ for links to Linux documentation resources.
+

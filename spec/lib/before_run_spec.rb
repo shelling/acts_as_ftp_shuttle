@@ -2,6 +2,7 @@ $:.unshift File.dirname(__FILE__) + "/../../lib"
 
 require "ptools"
 require "active_record"
+require "net/ftp"
 
 require "acts_as_ftp_shuttle"
 

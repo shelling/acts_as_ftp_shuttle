@@ -7,7 +7,8 @@ desc 'Default: run unit tests.'
 task :default => :test
 
 CLEAN.include [
-  "spec/tempdb.sqlite3"
+  "spec/tempdb.sqlite3",
+  "spec/public/files/*",
 ]
 
 desc 'Test the acts_as_ftp_shuttle plugin.'

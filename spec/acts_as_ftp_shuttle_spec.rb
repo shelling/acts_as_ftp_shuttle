@@ -26,14 +26,20 @@ describe PDFModel do
   it "should load config from RAILS_ROOT/config/ftp_shuttle.yml" do
     RAILS_ROOT = File.dirname(__FILE__)
     config = PDFModel.config
-    config.should have_key "kernel"
+    config.should have_key("kernel")
     config["kernel"]["host"].should == "ftp.kernel.org"
   end
 
-  it "should add item into database after getting file"
+  it "should add item into database after getting file" do
+    PDFModel.get("pub/README", :site => "kernel")
+    PDFModel.last.filename.should == "README"
+  end
+
+  it "should have public filename"
+
+  it "should get files specified by glob"
 
   it "should purge file and record in database if error raised in workflow"
 
-  it "should ..."
 
 end
