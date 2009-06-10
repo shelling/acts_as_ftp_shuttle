@@ -1,0 +1,4 @@
+kernel:
+  host: "ftp.kernel.org"
+  user: ""
+  pass: ""
