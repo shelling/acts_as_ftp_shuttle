@@ -15,7 +15,11 @@ module ActiveRecord::FTPShuttle
 
   module ClassMethods
 
+    def get
+    end
+
     def get_glob
+      
     end
 
   end
