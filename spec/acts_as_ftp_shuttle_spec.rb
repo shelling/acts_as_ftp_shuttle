@@ -31,9 +31,20 @@ describe PDFModel do
     @pdf_model = PDFModel.new
   end
 
-  it "should acts as ftp shuttle" do
-    @pdf_model.acts_as_ftp_shuttle.should == "ftp_shuttle"
+  it "should have class method acts_as_ftp_shuttle" do
+    PDFModel.methods.include?("acts_as_ftp_shuttle") == true
   end
+
+  it "should have specified methods after mixing" do
+    PDFModel.send :acts_as_ftp_shuttle
+    PDFModel.methods.include?("get_glob") == true
+  end
+
+  it "should not have specified methods before mixing" do
+    PDFModel.methods.include?("get_glob") == false
+  end
+
+  it "should acts as ftp shuttle" 
 
   it "should ..."
 
